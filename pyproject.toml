@@ -1,7 +1,14 @@
 [project]
-name = "ai-news"
+name = "smart-loadshedding-advisor"
 version = "0.1.0"
-description = "Add your description here"
+description = "FastAPI + Streamlit app for the Smart Loadshedding Advisor"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "streamlit",
+    "psycopg2",
+    "langchain",
+    "python-dotenv",
+]
